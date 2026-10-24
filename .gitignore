@@ -1,0 +1,5 @@
+archives/
+release/
+.gnupg/
+*.partial
+__pycache__/

@@ -1,0 +1,749 @@
+{
+  "collection_version": "0.1.0",
+  "checked_date": "2026-10-24",
+  "target": "Galaxy Tab A9+ 5G, exact SM-X model and firmware unknown",
+  "hardware_validated": false,
+  "repositories": [
+    {
+      "repo": "archlinuxarm/PKGBUILDs",
+      "purpose": "Arch ARM packaging recipes",
+      "url": "https://github.com/archlinuxarm/PKGBUILDs",
+      "branch": "master",
+      "commit": "89ff712fd8a8bd898a62020c416800b464c97f14",
+      "reviewed_utc": "2026-10-24T05:02:43.960304+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": false,
+      "redistribution_review": "link only",
+      "archive_url": "https://codeload.github.com/archlinuxarm/PKGBUILDs/tar.gz/89ff712fd8a8bd898a62020c416800b464c97f14",
+      "archive_name": "archlinuxarm--PKGBUILDs--89ff712fd8a8.tar.gz",
+      "tablet_support": "unverified"
+    },
+    {
+      "repo": "Samsung-QTI/manifest",
+      "purpose": "Android source manifest, reference only",
+      "url": "https://github.com/Samsung-QTI/manifest",
+      "branch": "release",
+      "commit": "01dc6edc3ad4ccc7c34a060cbc0c16afec223a57",
+      "reviewed_utc": "2026-10-24T05:02:44.050372+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": false,
+      "redistribution_review": "link only",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/manifest/tar.gz/01dc6edc3ad4ccc7c34a060cbc0c16afec223a57",
+      "archive_name": "Samsung-QTI--manifest--01dc6edc3ad4.tar.gz",
+      "tablet_support": "unverified"
+    },
+    {
+      "repo": "Samsung-QTI/android_kernel_msm-5.4",
+      "purpose": "Older downstream 5.4 kernel, historical reference",
+      "url": "https://github.com/Samsung-QTI/android_kernel_msm-5.4",
+      "branch": "lineage-22.2",
+      "commit": "a3e637fe3e9c50ad1431d48e158da949ad06d19b",
+      "reviewed_utc": "2026-10-24T05:02:44.135676+00:00",
+      "archived": false,
+      "detected_license": "GPL-2.0",
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/android_kernel_msm-5.4/tar.gz/a3e637fe3e9c50ad1431d48e158da949ad06d19b",
+      "archive_name": "Samsung-QTI--android_kernel_msm-5.4--a3e637fe3e9c.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "fec8316f48856c6743c6fc3233fddf4b0472d619d69e2a1f2509ebe9927fb049",
+      "bytes": 209058847,
+      "license_evidence": [
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/COPYING",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/networking/device_drivers/qlogic/LICENSE.qla3xxx",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/networking/device_drivers/qlogic/LICENSE.qlcnic",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/networking/device_drivers/qlogic/LICENSE.qlge",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/scsi/LICENSE.FlashPoint",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/scsi/LICENSE.qla2xxx",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/Documentation/scsi/LICENSE.qla4xxx",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/LICENSE",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/drivers/net/LICENSE.SRC",
+        "android_kernel_msm-5.4-a3e637fe3e9c50ad1431d48e158da949ad06d19b/drivers/net/wireless/marvell/libertas/LICENSE"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI/android_kernel_build",
+      "purpose": "Android kernel build tools, not the kernel itself",
+      "url": "https://github.com/Samsung-QTI/android_kernel_build",
+      "branch": "kernel.lnx.6.1.r46-rel",
+      "commit": "9c2058f2328403803d7f88dd6a825fbc15d6997d",
+      "reviewed_utc": "2026-10-24T05:02:44.103811+00:00",
+      "archived": false,
+      "detected_license": "Apache-2.0",
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/android_kernel_build/tar.gz/9c2058f2328403803d7f88dd6a825fbc15d6997d",
+      "archive_name": "Samsung-QTI--android_kernel_build--9c2058f23284.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "1865c3ba5f49532a6e83195ca0d03f1ea5beb9d472296b76c981551850f8a3e5",
+      "bytes": 398912,
+      "license_evidence": [
+        "android_kernel_build-9c2058f2328403803d7f88dd6a825fbc15d6997d/LICENSE",
+        "android_kernel_build-9c2058f2328403803d7f88dd6a825fbc15d6997d/kleaf/tests/ddk_test/license.c"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_touch-drivers",
+      "purpose": "Touch source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_touch-drivers",
+      "branch": "master",
+      "commit": "51e2b47435d7e504413e3ccfb3c059998db128c0",
+      "reviewed_utc": "2026-10-24T05:02:45.211691+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_touch-drivers/tar.gz/51e2b47435d7e504413e3ccfb3c059998db128c0",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_touch-drivers--51e2b47435d7.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "f6d17f90412fc5afce44f76281c06708d2b00cc96bc1cc523fbc601ec64b4696",
+      "bytes": 1369930,
+      "license_evidence": [
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/NOTICE",
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/atmel_mxt/atmel_mxt_ts.c: SPDX GPL-2.0-or-later",
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/config/gki_bengaltouchconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/config/gki_blairtouchconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/config/gki_crowtouchconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_touch-drivers-51e2b47435d7e504413e3ccfb3c059998db128c0/config/gki_kalamatouchconf.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_graphics-kernel",
+      "purpose": "Graphics source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_graphics-kernel",
+      "branch": "master",
+      "commit": "05a7c0968a354287e6081878419d695cf5ece8be",
+      "reviewed_utc": "2026-10-24T05:02:45.298938+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_graphics-kernel/tar.gz/05a7c0968a354287e6081878419d695cf5ece8be",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_graphics-kernel--05a7c0968a35.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "74ace3688f30152c4a1cd2f99fee96224e226f8567254513c141c35b656229d3",
+      "bytes": 934105,
+      "license_evidence": [
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/a3xx_reg.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/a5xx_reg.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/a6xx_reg.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/adreno-gpulist.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/adreno.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_graphics-kernel-05a7c0968a354287e6081878419d695cf5ece8be/adreno.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_display-drivers",
+      "purpose": "Display source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_display-drivers",
+      "branch": "master",
+      "commit": "9fe7a9013eee34dd4f41d1b38a4faec07f0310d4",
+      "reviewed_utc": "2026-10-24T05:02:45.364469+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_display-drivers/tar.gz/9fe7a9013eee34dd4f41d1b38a4faec07f0310d4",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_display-drivers--9fe7a9013eee.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "af422f77f43b3326a7770e47f2031f3cab5722f0b106c57f9022c5d1d2e5ed98",
+      "bytes": 1327342,
+      "license_evidence": [
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/NOTICE",
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/config/augen3dispconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/config/bengaldispconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/config/gki_blairdispconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/config/gki_holidispconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_display-drivers-9fe7a9013eee34dd4f41d1b38a4faec07f0310d4/config/gki_kalamadispconf.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_audio-kernel-ar",
+      "purpose": "Audio source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_audio-kernel-ar",
+      "branch": "master",
+      "commit": "30300204f5f6e38dbf45ca68c393938dd90feb31",
+      "reviewed_utc": "2026-10-24T05:02:45.481987+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_audio-kernel-ar/tar.gz/30300204f5f6e38dbf45ca68c393938dd90feb31",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_audio-kernel-ar--30300204f5f6.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "545b482a40424a7d39a797e7f11e401004a58a8f2ef7352c633f750a382126a1",
+      "bytes": 1538536,
+      "license_evidence": [
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/NOTICE",
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/asoc/auto_spf_dummy.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/asoc/bengal-port-config.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/asoc/bengal.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/asoc/codecs/aqt1000/aqt1000-api.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_audio-kernel-ar-30300204f5f6e38dbf45ca68c393938dd90feb31/asoc/codecs/aqt1000/aqt1000-clsh.c: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_bt-kernel",
+      "purpose": "Bluetooth source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_bt-kernel",
+      "branch": "master",
+      "commit": "5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591",
+      "reviewed_utc": "2026-10-24T05:02:46.399234+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_bt-kernel/tar.gz/5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_bt-kernel--5fccb3531bc7.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "67f1b0929f26fd2b4928a2a306c73a0e0f66656005c19f031d74846c35cec5df",
+      "bytes": 88748,
+      "license_evidence": [
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/btfm_codec.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/btfm_codec_btadv_interface.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/btfm_codec_hw_interface.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/btfm_codec_interface.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/include/btfm_codec.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_bt-kernel-5fccb3531bc718200d5e0a0a5b0f4c3e0c8e8591/btfmcodec/include/btfm_codec_btadv_interface.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_camera-kernel",
+      "purpose": "Camera source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_camera-kernel",
+      "branch": "master",
+      "commit": "2a1eaa132775b060d2b3b674cfc3c04ac245662b",
+      "reviewed_utc": "2026-10-24T05:02:46.493908+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_camera-kernel/tar.gz/2a1eaa132775b060d2b3b674cfc3c04ac245662b",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_camera-kernel--2a1eaa132775.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "f4c9a237c21ac4fecb355472b566f54bd18dde865d99c7e09d334c3fb04414d2",
+      "bytes": 1120685,
+      "license_evidence": [
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/bengalcameraconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/blair.mk: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/blaircameraconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/holi.mk: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/holicameraconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_camera-kernel-2a1eaa132775b060d2b3b674cfc3c04ac245662b/config/konacameraconf.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_video-driver",
+      "purpose": "Video source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_video-driver",
+      "branch": "master",
+      "commit": "559ad87ab3e6904c3cbd1ff1f73024e0d22de979",
+      "reviewed_utc": "2026-10-24T05:02:46.608569+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_video-driver/tar.gz/559ad87ab3e6904c3cbd1ff1f73024e0d22de979",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_video-driver--559ad87ab3e6.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "c9103aa13150d8e04f7145a6d296e4d2c67edb121e2f8dc7e317061cb0291af4",
+      "bytes": 309070,
+      "license_evidence": [
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/Android.mk: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/config/blair_video.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/config/diwali_video.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/config/khaje_video.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/config/monaco_video.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_video-driver-559ad87ab3e6904c3cbd1ff1f73024e0d22de979/config/neo_video.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_wlan_platform",
+      "purpose": "WLAN platform source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_wlan_platform",
+      "branch": "master",
+      "commit": "6a5f454400ce0446961a0b7fdaa45b7372933fbb",
+      "reviewed_utc": "2026-10-24T05:02:46.743257+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_wlan_platform/tar.gz/6a5f454400ce0446961a0b7fdaa45b7372933fbb",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_wlan_platform--6a5f454400ce.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "b3ea652562ed1235317f7a7907ab2c184a187de5a16f8b8ff0e80aae32bd70c1",
+      "bytes": 247875,
+      "license_evidence": [
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/bus.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/bus.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/coexistence_service_v01.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/coexistence_service_v01.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/debug.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_wlan_platform-6a5f454400ce0446961a0b7fdaa45b7372933fbb/cnss2/debug.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_wlan_qcacld-3.0",
+      "purpose": "WLAN driver source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_wlan_qcacld-3.0",
+      "branch": "master",
+      "commit": "267b65986bcec01b307c4f4f7534e6ed21bff094",
+      "reviewed_utc": "2026-10-24T05:02:47.640863+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_wlan_qcacld-3.0/tar.gz/267b65986bcec01b307c4f4f7534e6ed21bff094",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_wlan_qcacld-3.0--267b65986bce.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "f408c30728f94007320e04045f369ed73fd0c0f516fcb5840893a205cd9d6cb9",
+      "bytes": 4421086,
+      "license_evidence": [
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/core/inc/wlan_action_oui_main.h: permissive notice in source header",
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/core/inc/wlan_action_oui_objmgr.h: permissive notice in source header",
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/core/inc/wlan_action_oui_priv.h: permissive notice in source header",
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/core/src/wlan_action_oui_main.c: permissive notice in source header",
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/core/src/wlan_action_oui_parse.c: permissive notice in source header",
+        "vendor_qcom_opensource_wlan_qcacld-3.0-267b65986bcec01b307c4f4f7534e6ed21bff094/components/action_oui/dispatcher/inc/wlan_action_oui_public_struct.h: permissive notice in source header"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_dsp-kernel",
+      "purpose": "DSP source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_dsp-kernel",
+      "branch": "master",
+      "commit": "a17b604c7e57f80093657dfefe7f54d628d2782d",
+      "reviewed_utc": "2026-10-24T05:02:47.730103+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_dsp-kernel/tar.gz/a17b604c7e57f80093657dfefe7f54d628d2782d",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_dsp-kernel--a17b604c7e57.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "515b6049404037e4ec8ccc61e7a7d433e9ca77b407d3d2f067c00ed7a4118974",
+      "bytes": 84340,
+      "license_evidence": [
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/config/pineappledspconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/dsp/adsprpc_compat.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/dsp/adsprpc_compat.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/dsp/adsprpc_rpmsg.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/dsp/adsprpc_shared.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dsp-kernel-a17b604c7e57f80093657dfefe7f54d628d2782d/dsp/adsprpc_socket.c: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_dataipa",
+      "purpose": "Data networking source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_dataipa",
+      "branch": "master",
+      "commit": "049a43c966195136041de68b90ec62b9c2ec33b0",
+      "reviewed_utc": "2026-10-24T05:02:47.938445+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_dataipa/tar.gz/049a43c966195136041de68b90ec62b9c2ec33b0",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_dataipa--049a43c96619.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "af4f0d5ede7a9bf88195464f6f06579eafd8aea1b6e0b00da6d39399c84fe9ac",
+      "bytes": 2731016,
+      "license_evidence": [
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/LICENSE",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/NOTICE",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/dataipa.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/dataipa_debug.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/dataipa_vendor.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/config/dataipa_vendor_ipav4.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/drivers/LICENSE",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/drivers/NOTICE",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/ipanat/NOTICE",
+        "vendor_qcom_opensource_dataipa-049a43c966195136041de68b90ec62b9c2ec33b0/kernel-tests/NOTICE"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI/android_vendor_qcom_opensource_usb",
+      "purpose": "Android USB integration source",
+      "url": "https://github.com/Samsung-QTI/android_vendor_qcom_opensource_usb",
+      "branch": "lineage-23.2",
+      "commit": "6b9b73beedf17430a5bae64fd984243c2948502f",
+      "reviewed_utc": "2026-10-24T05:02:48.049221+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/android_vendor_qcom_opensource_usb/tar.gz/6b9b73beedf17430a5bae64fd984243c2948502f",
+      "archive_name": "Samsung-QTI--android_vendor_qcom_opensource_usb--6b9b73beedf1.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "102fd3a9a03d6a23fc9dad52fd899227ae17c19077610d699d3d507202d796c9",
+      "bytes": 28069,
+      "license_evidence": [
+        "android_vendor_qcom_opensource_usb-6b9b73beedf17430a5bae64fd984243c2948502f/hal/Usb.cpp: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_usb-6b9b73beedf17430a5bae64fd984243c2948502f/hal/Usb.h: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_usb-6b9b73beedf17430a5bae64fd984243c2948502f/hal/UsbGadget.cpp: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_usb-6b9b73beedf17430a5bae64fd984243c2948502f/hal/UsbGadget.h: SPDX BSD-3-Clause-Clear"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI/android_vendor_qcom_opensource_power",
+      "purpose": "Android power integration source",
+      "url": "https://github.com/Samsung-QTI/android_vendor_qcom_opensource_power",
+      "branch": "lineage-23.2",
+      "commit": "e4b95d7381734fabfa045cc3e39cd0fd1d534727",
+      "reviewed_utc": "2026-10-24T05:02:48.890821+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/android_vendor_qcom_opensource_power/tar.gz/e4b95d7381734fabfa045cc3e39cd0fd1d534727",
+      "archive_name": "Samsung-QTI--android_vendor_qcom_opensource_power--e4b95d738173.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "3d7a141455bba2d8143ea844c4b16ea947be8db818cd9317554d1b1f85a528bf",
+      "bytes": 58054,
+      "license_evidence": [
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/NOTICE",
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/Power.cpp: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/Power.h: BSD style notice in source header",
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/PowerHintSession.cpp: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/PowerHintSession.h: SPDX BSD-3-Clause-Clear",
+        "android_vendor_qcom_opensource_power-e4b95d7381734fabfa045cc3e39cd0fd1d534727/fuzzer.cpp: SPDX BSD-3-Clause-Clear"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI/android_hardware_qcom_thermal",
+      "purpose": "Android thermal integration source",
+      "url": "https://github.com/Samsung-QTI/android_hardware_qcom_thermal",
+      "branch": "lineage-23.2",
+      "commit": "9a914ee03ed648ed027005fdc58589623e739746",
+      "reviewed_utc": "2026-10-24T05:02:48.970044+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/android_hardware_qcom_thermal/tar.gz/9a914ee03ed648ed027005fdc58589623e739746",
+      "archive_name": "Samsung-QTI--android_hardware_qcom_thermal--9a914ee03ed6.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "844bb6af58205d107f4c059aa806b7e2d5b0b9ad9705ba2deba0f7822a691401",
+      "bytes": 19172,
+      "license_evidence": [
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/service.cpp: SPDX BSD-3-Clause-Clear",
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/thermal.cpp: SPDX BSD-3-Clause-Clear",
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/thermal.h: SPDX BSD-3-Clause-Clear",
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/thermalCommon.cpp: SPDX BSD-3-Clause-Clear",
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/thermalCommon.h: BSD style notice in source header",
+        "android_hardware_qcom_thermal-9a914ee03ed648ed027005fdc58589623e739746/thermalConfig.cpp: SPDX BSD-3-Clause-Clear"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI/device_samsung_gta9pwifi",
+      "purpose": "WiFi model Android product configuration, not 5G",
+      "url": "https://github.com/Samsung-QTI/device_samsung_gta9pwifi",
+      "branch": "master",
+      "commit": "086f9b8489ce8c66a2d11a6150118984374f2e87",
+      "reviewed_utc": "2026-10-24T05:02:49.553860+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": false,
+      "redistribution_review": "link only",
+      "archive_url": "https://codeload.github.com/Samsung-QTI/device_samsung_gta9pwifi/tar.gz/086f9b8489ce8c66a2d11a6150118984374f2e87",
+      "archive_name": "Samsung-QTI--device_samsung_gta9pwifi--086f9b8489ce.tar.gz",
+      "tablet_support": "unverified"
+    },
+    {
+      "repo": "Samsung-QTI-Blair/android_kernel_platform_build_config",
+      "purpose": "WiFi oriented kernel build configuration reference",
+      "url": "https://github.com/Samsung-QTI-Blair/android_kernel_platform_build_config",
+      "branch": "P86803AA1",
+      "commit": "1fa1c2735359d0a920bd445f98873e097ff9dcd2",
+      "reviewed_utc": "2026-10-24T05:02:49.283145+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": false,
+      "redistribution_review": "link only",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/android_kernel_platform_build_config/tar.gz/1fa1c2735359d0a920bd445f98873e097ff9dcd2",
+      "archive_name": "Samsung-QTI-Blair--android_kernel_platform_build_config--1fa1c2735359.tar.gz",
+      "tablet_support": "unverified"
+    },
+    {
+      "repo": "Samsung-QTI-Blair/android_kernel_platform_external_dtc",
+      "purpose": "Devicetree compiler source",
+      "url": "https://github.com/Samsung-QTI-Blair/android_kernel_platform_external_dtc",
+      "branch": "kernel.build.lnx.2.0.r4-rel",
+      "commit": "5925a0237fc31031a16737f3a4b63404e3519a60",
+      "reviewed_utc": "2026-10-24T05:02:50.380576+00:00",
+      "archived": false,
+      "detected_license": "NOASSERTION",
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/android_kernel_platform_external_dtc/tar.gz/5925a0237fc31031a16737f3a4b63404e3519a60",
+      "archive_name": "Samsung-QTI-Blair--android_kernel_platform_external_dtc--5925a0237fc3.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "438b89ec771fde1a63747724dc9e9334244e7afb043fae9c71c01cc3c7446bea",
+      "bytes": 217261,
+      "license_evidence": [
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/NOTICE",
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/checks.c: SPDX GPL-2.0-or-later",
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/data.c: SPDX GPL-2.0-or-later",
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/dtc.c: SPDX GPL-2.0-or-later",
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/dtc.h: SPDX GPL-2.0-or-later",
+        "android_kernel_platform_external_dtc-5925a0237fc31031a16737f3a4b63404e3519a60/fdtdump.c: SPDX GPL-2.0-or-later"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_mm-drivers",
+      "purpose": "Multimedia source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_mm-drivers",
+      "branch": "master",
+      "commit": "e992605039e0712ed09fdebdfc8888e2261be9bc",
+      "reviewed_utc": "2026-10-24T05:02:50.343425+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_mm-drivers/tar.gz/e992605039e0712ed09fdebdfc8888e2261be9bc",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_mm-drivers--e992605039e0.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "44554c7d0678661be55daba9e4f1e1af20c6edefde98eaf4aa37b5e584c885e4",
+      "bytes": 61833,
+      "license_evidence": [
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/config/kalamammdriversconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/hw_fence/include/hw_fence_drv_debug.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/hw_fence/include/hw_fence_drv_ipc.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/hw_fence/include/hw_fence_drv_priv.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/hw_fence/include/hw_fence_drv_utils.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mm-drivers-e992605039e0712ed09fdebdfc8888e2261be9bc/hw_fence/include/msm_hw_fence_synx_translation.h: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_mmrm-driver",
+      "purpose": "Multimedia resource manager source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_mmrm-driver",
+      "branch": "master",
+      "commit": "81a24dcd2b5ff463664b0ec125587b757cb5357c",
+      "reviewed_utc": "2026-10-24T05:02:50.604994+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_mmrm-driver/tar.gz/81a24dcd2b5ff463664b0ec125587b757cb5357c",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_mmrm-driver--81a24dcd2b5f.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "ee016a35a3fe351d6c56092814cd9e254fe373b39fed0d0c5866b4f5d372d6f5",
+      "bytes": 18197,
+      "license_evidence": [
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/config/waipiommrmconf.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/driver/src/mmrm_clk_rsrc_mgr.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/driver/src/mmrm_clk_rsrc_mgr.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/driver/src/mmrm_clk_rsrc_mgr_cxipeak.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/driver/src/mmrm_clk_rsrc_mgr_sw.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_mmrm-driver-81a24dcd2b5ff463664b0ec125587b757cb5357c/driver/src/mmrm_debug.c: SPDX GPL-2.0-only"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet",
+      "purpose": "Data networking kernel source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet",
+      "branch": "master",
+      "commit": "c8bd2fc6789b58c9cf90d1132895a50e52acd583",
+      "reviewed_utc": "2026-10-24T05:02:50.979048+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet/tar.gz/c8bd2fc6789b58c9cf90d1132895a50e52acd583",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_datarmnet--c8bd2fc6789b.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "cf822ce2f34b0abc4636e00d6925755df356c95832428346641b8c8468ab659e",
+      "bytes": 91511,
+      "license_evidence": [
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/dfc.h: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/dfc_defs.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/dfc_qmap.c: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/dfc_qmi.c: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/qmi_rmnet.c: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-c8bd2fc6789b58c9cf90d1132895a50e52acd583/core/qmi_rmnet.h: GPL notice in source header"
+      ]
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet-ext",
+      "purpose": "Data networking extension source",
+      "url": "https://github.com/Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet-ext",
+      "branch": "master",
+      "commit": "0b92e6839c44d184c36640468badb44238a0ab7c",
+      "reviewed_utc": "2026-10-24T05:02:51.571043+00:00",
+      "archived": false,
+      "detected_license": null,
+      "download_archive": true,
+      "redistribution_review": "Upstream notices/source license headers retained. Per file terms apply.",
+      "archive_url": "https://codeload.github.com/Samsung-QTI-Blair/vendor_qcom_opensource_datarmnet-ext/tar.gz/0b92e6839c44d184c36640468badb44238a0ab7c",
+      "archive_name": "Samsung-QTI-Blair--vendor_qcom_opensource_datarmnet-ext--0b92e6839c44.tar.gz",
+      "tablet_support": "unverified",
+      "sha256": "08dc0e8932a40eb508c50eed67b4a5284474d0f2e299c9b8199ae47024ea94c1",
+      "bytes": 261938,
+      "license_evidence": [
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/aps/rmnet_aps.h: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/aps/rmnet_aps_genl.c: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/aps/rmnet_aps_genl.h: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/aps/rmnet_aps_main.c: GPL notice in source header",
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/mem/rmnet_mem.h: SPDX GPL-2.0-only",
+        "vendor_qcom_opensource_datarmnet-ext-0b92e6839c44d184c36640468badb44238a0ab7c/mem/rmnet_mem_main.c: SPDX GPL-2.0-only"
+      ]
+    }
+  ],
+  "unavailable_references": [
+    {
+      "repo": "Samsung-QTI-Blair/kernel-common",
+      "status": "not publicly accessible via GitHub API during collection",
+      "context": "Referenced by community kernel manifests. Not included in source bundle."
+    },
+    {
+      "repo": "Samsung-QTI-Blair/kernel-qcom",
+      "status": "not publicly accessible via GitHub API during collection",
+      "context": "Referenced by community kernel manifests. Not included in source bundle."
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_wlan_fw-api",
+      "status": "not publicly accessible via GitHub API during collection",
+      "context": "Referenced by community kernel manifests. Not included in source bundle."
+    },
+    {
+      "repo": "Samsung-QTI-Blair/vendor_qcom_opensource_wlan_qca-wifi-host-cmn",
+      "status": "not publicly accessible via GitHub API during collection",
+      "context": "Referenced by community kernel manifests. Not included in source bundle."
+    }
+  ],
+  "resources": [
+    {
+      "title": "Arch Linux ARM",
+      "url": "https://archlinuxarm.org/",
+      "purpose": "Maintained ARM distribution"
+    },
+    {
+      "title": "Generic AArch64 base",
+      "url": "https://archlinuxarm.org/platforms/armv8/generic",
+      "purpose": "Userspace base, not a tablet image"
+    },
+    {
+      "title": "Official downloads and signatures",
+      "url": "https://archlinuxarm.org/about/downloads",
+      "purpose": "Download the base tarball and signature upstream"
+    },
+    {
+      "title": "Package signing",
+      "url": "https://archlinuxarm.org/about/package-signing",
+      "purpose": "Official trust and signature guidance"
+    },
+    {
+      "title": "Supported platforms",
+      "url": "https://archlinuxarm.org/platforms",
+      "purpose": "Check platform support separately"
+    },
+    {
+      "title": "Arch ARM package search",
+      "url": "https://archlinuxarm.org/packages",
+      "purpose": "Check ARM package availability"
+    },
+    {
+      "title": "PKGBUILD reference",
+      "url": "https://man.archlinux.org/man/PKGBUILD.5.en",
+      "purpose": "Packaging concepts, not x86 binary packages"
+    },
+    {
+      "title": "makepkg reference",
+      "url": "https://man.archlinux.org/man/makepkg.8.en",
+      "purpose": "Package builder"
+    },
+    {
+      "title": "Linux kernel sources",
+      "url": "https://www.kernel.org/",
+      "purpose": "Maintained upstream kernel sources and signatures"
+    },
+    {
+      "title": "ARM64 boot protocol",
+      "url": "https://www.kernel.org/doc/html/latest/arch/arm64/booting.html",
+      "purpose": "Kernel boot requirements"
+    },
+    {
+      "title": "Linux Devicetree",
+      "url": "https://docs.kernel.org/devicetree/usage-model.html",
+      "purpose": "Hardware description"
+    },
+    {
+      "title": "Kernel build documentation",
+      "url": "https://docs.kernel.org/kbuild/index.html",
+      "purpose": "Kernel configuration and compilation"
+    },
+    {
+      "title": "Samsung Open Source",
+      "url": "https://opensource.samsung.com/",
+      "purpose": "Official model and firmware matching source lookup, automated fetch timed out"
+    },
+    {
+      "title": "Samsung-QTI",
+      "url": "https://github.com/Samsung-QTI",
+      "purpose": "Community Android development, not official Samsung Linux support"
+    },
+    {
+      "title": "Samsung-QTI-Blair",
+      "url": "https://github.com/Samsung-QTI-Blair",
+      "purpose": "Community downstream kernel module sources"
+    },
+    {
+      "title": "Android GKI",
+      "url": "https://source.android.com/docs/core/architecture/kernel/generic-kernel-image",
+      "purpose": "Android kernel architecture"
+    },
+    {
+      "title": "Android kernel build guide",
+      "url": "https://source.android.com/docs/setup/build/building-kernels",
+      "purpose": "Android build reference, not Arch port instructions"
+    },
+    {
+      "title": "Android common kernel",
+      "url": "https://android.googlesource.com/kernel/common/",
+      "purpose": "Generic Android kernel source, not complete tablet BSP"
+    },
+    {
+      "title": "Mesa Freedreno",
+      "url": "https://docs.mesa3d.org/drivers/freedreno.html",
+      "purpose": "Adreno graphics userspace, board integration still needed"
+    },
+    {
+      "title": "Linux firmware",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/firmware/linux-firmware/",
+      "purpose": "Firmware source repository, individual file licenses apply"
+    },
+    {
+      "title": "QEMU ARM virt",
+      "url": "https://www.qemu.org/docs/master/system/arm/virt.html",
+      "purpose": "Generic ARM virtual board, not tablet hardware emulation"
+    },
+    {
+      "title": "postmarketOS porting guide",
+      "url": "https://wiki.postmarketos.org/wiki/Porting_to_a_new_device",
+      "purpose": "Cross distribution porting reference, automated access blocked/redirected"
+    },
+    {
+      "title": "XFCE developer documentation",
+      "url": "https://developer.xfce.org/",
+      "purpose": "Lightweight desktop development"
+    },
+    {
+      "title": "Wayland documentation",
+      "url": "https://wayland.freedesktop.org/docs/html/",
+      "purpose": "Display stack reference"
+    },
+    {
+      "title": "Termux proot-distro",
+      "url": "https://github.com/termux/proot-distro",
+      "purpose": "Optional userspace inside Android, not a replacement kernel"
+    },
+    {
+      "title": "Termux X11",
+      "url": "https://github.com/termux/termux-x11",
+      "purpose": "Optional graphical server inside Android"
+    }
+  ]
+}

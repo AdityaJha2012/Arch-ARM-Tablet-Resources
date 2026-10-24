@@ -1,0 +1,14 @@
+{
+  "version": "6.12.114",
+  "source_url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.114.tar.xz",
+  "signature_url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.114.tar.sign",
+  "archive_name": "linux-6.12.114.tar.xz",
+  "signature_name": "linux-6.12.114.tar.sign",
+  "sha256": "7a8589912bd7a8adb07fed074283652cf482a35facef8954554654f0154b4af3",
+  "signature_sha256": "1a204b84d20ed1b7030301b6f1f98fbe5cc5a28f568018bd21dda443c6507132",
+  "signature_validated": true,
+  "primary_key_fingerprint": "647F28654894E3BD457199BE38DBBDC86092693E",
+  "key_fingerprint_reference": "https://www.kernel.org/signature.html",
+  "purpose": "Maintained upstream LTS source. Not a tablet ready kernel.",
+  "tablet_support": "unverified"
+}
